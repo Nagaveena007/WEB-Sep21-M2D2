@@ -10,3 +10,8 @@ nav{
     .card-body{
     color:black
     }
+    .card-img{
+        max-width: 100%;
+        height: auto;
+        max-height: 115px;
+        }
