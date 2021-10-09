@@ -3,9 +3,10 @@ body{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,45,0.9671218829328606) 35%, rgb(4, 66, 78) 100%);
 background-attachment: fixed;
 color: white;
+font-family: 'Noto Sans Mono', monospace;
 }
 nav{
-    background-color: (rgb(2,0,36), rgba(4, 66, 78) 100%);
+    background-color: (rgb(2,0,36), rgb(21, 178, 209) 100%);
     }
     .card-body{
     color:black
@@ -15,3 +16,39 @@ nav{
         height: auto;
         max-height: 115px;
         }
+
+.lastminute-img{
+min-height: 150px;
+min-width: 150px;
+ }
+.deal-of-the-week{
+    min-width: 250px;
+    min-height: 500px;
+}
+
+ .buttonRound{
+    border-radius: .25rem;
+    font-size: 68%;
+ }
+ .Welcome-Summer-card{
+    min-width: 150px;
+    min-height: 50px;
+ }
+footer{
+    background-color: #b8b4ad;
+}
+.footerbutton{
+    background-color: transparent;
+    border-color: #535250;
+    border-radius: 0.5rem;
+    color: #535250;
+    height: 40px;
+}
+
+.card-body{
+    min-height: 200px;
+    min-width: 150px;
+}
+button{
+    border-radius: 2rem;
+}
